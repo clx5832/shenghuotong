@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kuaidi"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/kuai_input"
+        android:id="@+id/ll_kuai"
+        >
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ed_kuaidi"
+            android:layout_weight="1"
+            android:hint="请输入快递单号："
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            />
+
+        <EditText
+            android:id="@+id/ed_erweima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/sis"
+            android:onClick="MyClick" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:id="@+id/chaxun"
+            android:textSize="20sp"
+            android:text="查询"
+            android:textColor="#001111"
+            android:textStyle="bold"
+            android:onClick="ChaXun"
+            android:background="@drawable/name_button"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="2"
+            android:id="@+id/image_kuaidi"
+            />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:orientation="vertical"
+            android:layout_weight="3"
+            >
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/kuai_message"
+            android:textSize="20dp"
+            android:text="messagee"
+            android:layout_gravity="center"
+            />
+
+            <TextView
+                android:id="@+id/kuai_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:onClick="callPhone"
+                android:text="phone"
+                android:textSize="10dp" />
+        </LinearLayout>
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="80dp"
+    android:layout_weight="2"
+    android:id="@+id/kuai_status"
+    android:text="status"
+    android:gravity="center"
+    android:textSize="30dp"
+    />
+    </LinearLayout>
+<!--<TextView-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:id="@+id/tv_kuaidi"-->
+<!--    android:text="查询结果为："-->
+<!--    android:layout_below="@+id/ll_kuai"-->
+<!--    android:layout_marginTop="30sp"-->
+<!--    />-->
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/items"
+    />
+</LinearLayout>

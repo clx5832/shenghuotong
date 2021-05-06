@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date2"
+        android:text="日期"
+        android:textSize="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textColor="#FF0000"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/temperature"
+        android:text="温度，最低温/最高温"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textColor="#22DDDD"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/weather"
+        android:text="天气情况"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textColor="#22DDDD"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/direct"
+        android:text="	风向"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textColor="#22DDDD"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/day"
+            android:text="bai  /"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textColor="#22DDDD"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/night"
+            android:text="hei"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textColor="#22DDDD"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

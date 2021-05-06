@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/nv1" android:duration="1000"/>
+     <item android:drawable="@drawable/nv2" android:duration="1000"/>
+      <item android:drawable="@drawable/nv3" android:duration="1000"/>
+       <item android:drawable="@drawable/nv4" android:duration="1000"/>
+        <item android:drawable="@drawable/nv5" android:duration="1000"/>
+         <item android:drawable="@drawable/nv6" android:duration="1000"/>
+          <item android:drawable="@drawable/nv7" android:duration="1000"/>
+           <item android:drawable="@drawable/nv8" android:duration="1000"/>
+            <item android:drawable="@drawable/nv9" android:duration="1000"/>
+             <item android:drawable="@drawable/nv10" android:duration="1000"/>
+              <item android:drawable="@drawable/nv11" android:duration="1000"/>
+               <item android:drawable="@drawable/nv12" android:duration="1000"/>
+                <item android:drawable="@drawable/nv13" android:duration="1000"/>
+                 <item android:drawable="@drawable/nv14" android:duration="1000"/>
+                  <item android:drawable="@drawable/nv15" android:duration="1000"/>
+                   <item android:drawable="@drawable/nv16" android:duration="1000"/>
+                    <item android:drawable="@drawable/nv17" android:duration="1000"/>
+                     <item android:drawable="@drawable/nv18" android:duration="1000"/>
+                      <item android:drawable="@drawable/nv19" android:duration="1000"/>
+                       <item android:drawable="@drawable/nv20" android:duration="1000"/>
+                        <item android:drawable="@drawable/nv21" android:duration="1000"/>
+                         <item android:drawable="@drawable/nv22" android:duration="1000"/>
+
+</animation-list>
